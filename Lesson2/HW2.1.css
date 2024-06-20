@@ -1,0 +1,28 @@
+* {
+    text-decoration: none
+}
+.hed {
+    display: flex;
+    border-bottom: gray 1px solid;
+    border-top: gray 1px solid;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.left-hed {
+    display: flex;
+    justify-content: left;
+}
+.right-hed {
+    display: flex;
+    justify-content: right;
+}
+.tab {
+    margin: 5px;
+}
+.notice {
+    width: 80%;
+    padding-left: 5%;
+}
+a {
+    color: cornflowerblue;
+}
