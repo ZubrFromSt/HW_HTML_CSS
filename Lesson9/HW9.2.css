@@ -1,0 +1,68 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(2, 139, 139);
+}
+.main {
+    background-color: white;
+    width: 35%;
+    border-radius: 20px;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(233, 243, 243);
+    width: 100%;
+    height: 20%;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+input {
+    height: 3em;
+    width: 80%;
+    margin-top: 5%;
+}
+
+.check {
+    width: 80%;
+    height: 20%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkbox {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 150px;
+
+}
+
+.checkbox input{
+    margin: 5%;
+    width: 1.25em;
+    height: 1.25em;
+}
+
+button {
+    font-weight: 400;
+    width: 70px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    background: #E9F3F3;
+}

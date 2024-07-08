@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(108, 122, 146);
+}
+
+.main {
+    margin-top: 10%;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+}
+
+input {
+    margin-top: 5%;
+    height: 2em;
+    font-weight: 600;
+    color: rgb(154, 157, 169);
+    min-width: 45%;
+}
+
+.text {
+    margin: 2%;
+}
+
+button {
+    background-color:rgb(249, 213, 1) ;
+    border: 1px outset rgb(225, 171, 0);
+    min-width: 45%;
+    height: 2em;
+    font-weight: 600;
+    color: black;
+}

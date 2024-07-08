@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(137, 201, 245);
+}
+.main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+
+.inputs {
+    border-top: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 20%;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    font-size: 2em;
+    justify-content: flex-start;
+}
+
+.sign {
+    color: gray;
+}
+
+input {
+    margin: 2%;
+    width: 90%;
+    border: 1px solid gray;
+    border-radius: 6px;
+    height: 2em;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    margin: 1em;
+    height: 2em;
+    border-color: orange;
+    border-radius: 6px;
+}
