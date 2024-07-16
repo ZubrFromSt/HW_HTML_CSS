@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(251, 246, 243);
+    font-family: "Inter", sans-serif;
+}
+/*-----------------------------Header----------------------------*/
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    padding: 3%;
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.logo {
+    width: 106px;
+    height: 39px;
+    top: 47px;
+    left: 424px;
+    padding: 0 150px 4px 9px;
+}
+
+nav {
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(211, 3, 7);
+    text-decoration: none;
+}
+
+nav ul li{
+    padding: 10%;
+}
+/*------------------Main--------------*/
+
+main {
+    background-color: rgb(251, 246, 243);
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img img {
+    padding-right: 4%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+h2 {
+    font-size: 48px;
+    width: 60%;
+}
+
+h3 {
+    color: rgb(211, 3, 7);
+    padding: 3% 0 3%;
+    font-size: 30px;
+}
+
+.size ul {
+    display: flex;
+    width: 100%;
+    list-style: none;
+}
+
+.size ul li {
+    padding: 2% 2% 2% 0;
+    font-size: 20px;
+}
+
+.gray {
+    color: gray;
+}
+
+.red {
+    color: rgb(211, 3, 7);
+}
+
+p {
+    width: 47%;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/*------------------Recom--------------*/
+
+footer {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.recom {
+    display: flex;
+    height: 100vh;
+    gap: 128px;
+    margin-top: 57px;
+    padding-top: 212px;
+}
+
+.goods-1 {
+    width: 285px;
+    height: 331px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    border-radius: 32px;
+    box-shadow: 0 4px 20px 0 rgba(139, 139, 139, 0.10);
+    position: relative;
+}
+
+.goods-1 h3 {
+    color: #106FDF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.goods-2 {
+    width: 285px;
+    height: 331px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    border-radius: 32px;
+    box-shadow: 0 4px 20px 0 rgba(139, 139, 139, 0.10);
+
+}
+
+.goods-2 h3 {
+    color: #DD152D;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.goods-3 {
+    width: 285px;
+    height: 331px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    border-radius: 32px;
+    box-shadow: 0 4px 20px 0 rgba(139, 139, 139, 0.10);
+    position: relative;
+}
+
+.goods-3 h3 {
+    color: #106FDF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer img {
+    width: 245px;
+    height: 200px;
+    border-radius: 16px;
+    padding-top: 20px;
+}
+
+footer h4 {
+    width: 245px;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer h2{
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 40%;
+    height: 116px;
+    padding-top: 212px;
+}
+
+.discount {
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 4px 20px 0 rgba(139, 139, 139, 0.10);
+    background-color: white;
+    border: 10px solid rgb(243, 243, 243);
+    position: absolute;
+    top: -15px;
+}
+
+.discount p {
+    font-size: 15px;
+    white-space: nowrap;
+    padding: 15px;
+}
