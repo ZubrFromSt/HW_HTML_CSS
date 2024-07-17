@@ -104,6 +104,7 @@ form {
     border-radius: 5px;
     border: 1px solid gray;
     width: 15%;
+    font-size: 20px;
 }
 #search {
     display: block;
