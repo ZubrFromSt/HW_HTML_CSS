@@ -141,6 +141,11 @@ section .content-1 button {
     margin: 79px 0 50px 56px;
 }
 
+section .content-1 button:hover {
+    background-color: #b73c20;
+    transition: 0.5s;
+}
+
 /*---------------------article-------------------*/
 
 article {
@@ -155,7 +160,7 @@ article h3 {
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0.72px;
-    margin: 42px 0 130px 165px;
+    margin: 42px 0 130px 0px;
 }
 
 .propositions {
@@ -240,5 +245,5 @@ footer h2 {
 }
 
 .footerContainer img {
-    padding-left: 55px;
+    margin: 55px 0 0 55px;
 }
